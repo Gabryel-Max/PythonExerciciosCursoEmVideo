@@ -1,0 +1,10 @@
+from random import randint
+d1 = randint(1, 10)
+d2 = randint(1, 10)
+d3 = randint(1, 10)
+d4 = randint(1, 10)
+d5 = randint(1, 10)
+tupla = (d1, d2, d3, d4, d5)
+print(f'Os valores sorteados foram: {tupla}')
+print(f'O maior valor sorteado foi {max(tupla)} ')
+print(f'O menor valor sorteado foi {min(tupla)} ')

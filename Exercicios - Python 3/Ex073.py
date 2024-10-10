@@ -1,0 +1,12 @@
+times = 'Botafogo' , 'Palmeiras' , 'Fortaleza' , 'Flamengo' , 'São Paulo' , 'Bahia' , 'Cruzeiro' , 'Internacional' , 'Vasco' , 'Atlético-MG' , 'Juventude' , 'Bragantino' , 'Athletico-PR' , 'Grêmio' , 'Criciúma' , 'Fluminense' , 'Vitória' , 'Corinthians' , 'Cuiabá' , 'Atlético-GO'
+print('=-='*94)
+print(f'Os times do brasileirão: {times} ')
+print('=-='*94)
+print(f'G5: {times[0:5]} ')
+print('=-='*94)
+print(f'Zona de rebaixamento: {times[16:]}')
+print('=-='*94)
+print(f'Os times em ordem alfabetica é {sorted(times)} ')
+print('=-='*94)
+print(f'O time \033[31mVASCO\033[m está na {times.index('Vasco')}º posição')
+print('=-='*94)
